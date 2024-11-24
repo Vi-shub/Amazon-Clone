@@ -36,7 +36,7 @@ const SignUp = () => {
     const { name, number, email, password, confirmPassword } = signUpInfo;
 
     try {
-      const res = await axios.post('http://localhost:8000/api/register', { 
+      const res = await axios.post('https://amazon-clone-qr6p.onrender.com/api/register', { 
         name, number, email, password, confirmPassword
       }, {
         headers: {

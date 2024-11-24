@@ -16,7 +16,7 @@ const Profile = () => {
   useEffect(function() {
     async function fetchUser() {
       try {
-        const res = await axios.get("https://amazon-clone-qr6p.onrender.com/api/getAuthUser", {
+        const res = await axios.get("https://amazon-clone-main.onrender.com/api/getAuthUser", {
           withCredentials: true
         })
   

@@ -22,7 +22,7 @@ const Slider = (props) => {
   useEffect(function() {
     async function fetchProducts() {
       try {
-        const res = await axios.get('https://amazon-clone-qr6p.onrender.com/api/products');
+        const res = await axios.get('https://amazon-clone-main.onrender.com/api/products');
         setProducts(res.data);
         setIsLoading(false);
       } catch (error) {
